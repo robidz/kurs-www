@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+    <!-- 3. Podpinamy style CSS dla JQuery UI 
+    (Dreamweaver: przeciągamy plik css) -->
+    <link rel="stylesheet" type="text/css" href="jquery-ui/css/ui-lightness/jquery-ui-1.8.16.custom.css">    
+</head>
+<body>
+    <!-- 4. Tworzymy właściwą strukturę kodu HTML  -->
+    <div id="accordion">
+    <h3><a href="#">First header</a></h3>
+    <div>First content</div>
+    <h3><a href="#">Second header</a></h3>
+    <div>Second content</div>
+	</div><!-- end #accordion -->
+
+<!-- 1. Podpinamy bibliotekę JQuery 
+(Dreamweacer: używamy opcji wstaw skrypt) -->
+<script type="text/javascript" src="jquery-1.6.4.min.js"></script>
+<!-- 2. Podpinamy bibliotekę JQuery UI 
+(Dreamweacer: używamy opcji wstaw skrypt) -->
+<script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>	
+<!-- 5. Dodajemy skrypt, który podepnie pod nasz kod html (na podstawie id lub klasy etc) dany efekt -->
+<script>
+	$(function() {
+		$( "#accordion" ).accordion();
+		//tu dodajemy kolejne efekty
+	});
+</script>
+</body>
+</html>
+
