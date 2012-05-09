@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularze</title>
+</head>
+<body>
+<!-- w action podajemy gdzie wysyłamy dane z formularza
+     w method w jaki sposób wysyłamy dane
+-->
+<form action="formularze.html" method="get">
+    <fieldset>
+        <legend>Przegląd pól formularza</legend>
+        
+        <label for="pole1">Etykieta dla pola "pole1"</label>
+        <input type="text" name="pole1" id="pole1" />
+        
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <input type="submit" value="Wyślij" />
+        
+        <input type="password" name="" id="" />
+        
+        <p>Wybierz ulubione kolory:</p>
+        Czerwony:<input type="checkbox" name="" id="" />
+        Biały: <input type="checkbox" name="" id="" />
+        Niebieski: <input type="checkbox" name="" id="" />
+        
+        <p>Płeć</p>
+        Kobieta: <input type="radio" name="plec" id="" /> 
+        Mężczyżna <input type="radio" name="plec" id="" />
+        
+        <input type="hidden" name="" />
+        <input type="reset" value="" />
+        <input type="button" value="" />
+        <button>Wyślij</button>
+        
+        <select name="" id="">
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+        </select>
+        
+        
+        
+        <!-- html5 wprowadza niesamowite możliwości obsługi formularzy m.in pola na wiele typów danych, wymagalność pół, opisy pół w polach -->
+        <input type="email" name="" id="" />
+        <input type="search" name="" id="" />
+        <input type="datetime" name="" id="" />
+        <input type="number" name="" id="" />
+        <input type="range" name="" id="" />
+        <input type="color" name="" id="" />
+        <input type="url" name="" id="" />
+        
+        <input type="text" placeholder="tu wpisz imię" required="required"/>
+        
+    </fieldset>
+</form>
+    
+    
+</body>
+</html>
